@@ -1,0 +1,238 @@
+/* body
+--------------------------------------------------*/
+body {
+  color:#414141;
+  background:#E9EDF1;
+}
+
+body#commentspopup {background:white;}
+
+
+/* headings
+--------------------------------------------------*/
+h1, h1 a,
+h2, h2 a,
+h3 a,
+h4 a
+  {color:#009193;}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover
+  {color:#1ba6b2;text-decoration:underline;}
+
+/* links
+--------------------------------------------------*/
+a {color:#6C8C37;}
+
+a:hover {color:#009193;}
+
+a.commentlink {
+  padding-left:16px;
+  background:url(images/spring_flavour/comments.gif) center left no-repeat;
+}
+
+a.more {
+  padding-right:10px;
+  background:url(images/spring_flavour/more.gif) center right no-repeat;
+}
+
+
+/* paragraphs, lists, etc
+--------------------------------------------------*/
+pre,
+code,
+blockquote
+{
+	background-color:#F8FAF2;
+	border-left:#a3c159 2px solid;
+}
+
+kbr {color:#009193;}
+
+
+/* container
+--------------------------------------------------*/
+#container {
+  padding-top:0;
+  border-top:0px solid white;
+  background:white url(images/spring_flavour/container_bg.gif) 322px 0px repeat-y ;
+}
+
+#container.singlecol,
+#commentspopup #container {background-image:none;}
+
+
+
+/* header
+--------------------------------------------------*/
+#header{background-image:url(images/spring_flavour/header_bg.jpg);}
+
+/* navigation
+--------------------------------------------------*/
+#navigation {background-color:#01814A;}
+
+#navigation li {border-color:white;}
+
+#navigation a {color:white;}
+
+#navigation ul li.current-menu-item, #navigation ul li.current-menu-parent, #navigation ul li:hover {
+	background:#1BA6B2;
+	text-decoration:none;
+	position: relative;
+}
+
+#navigation form {
+  border-color:##01814A;
+  background:##01814A url(images/spring_flavour/corner_bottom_right.gif) bottom right no-repeat;
+}
+
+#navigation #s {border-color:#FFF9EA;}
+
+#navigation #searchbutton {
+  color:white;
+  background-color:#01814A;
+}
+
+
+/* Entry
+--------------------------------------------------*/
+.entry {margin:0 0 40px 0;}
+
+.entry .author {}
+
+.entry .info {
+  border-color:#f4f4f4;
+  background-color:#f4f4f4;
+}
+
+.entry .info a {border-color:#949494;}
+
+.entry a.more {
+  padding-left:12px;
+  background:url(images/spring_flavour/more.gif) center left no-repeat;
+}
+
+.entry .info .date {
+  padding-left:9px;
+  
+}
+
+.entry .info .author {
+  padding-right:9px;
+  border-color:#949494;  
+}
+
+.entry #filedunder {border-color:#F3F4F4;}
+
+/* Comments
+--------------------------------------------------*/
+#comments h2 {margin-bottom:24px;}
+
+#comments h2 a {color:#6C8C37;}
+
+#comments li.comment {list-style-image:url(images/spring_flavour/comments.gif);}
+
+#comments li.trackback,#comments li.pingback {list-style-image:url(images/spring_flavour/pingtrackback.gif);}
+
+#commentform {background-color:#D7FFEE;}
+
+#comments .header {background-color:#C1FFE4;}
+
+#comments .header.alt {background-color:#C1FFE4;}
+
+#comments li p {color:#666;}
+
+
+/* form
+--------------------------------------------------*/
+form p {border-color:white;}
+
+form label { color:#6C8C37;}
+
+form em {color:#C8C8B4;}
+
+form input {color:#414141;}
+
+form input, form textarea {
+  border-color:#DCDCDC #F0F0F0 #F0F0F0 #DCDCDC;
+}
+form input:focus, form textarea:focus {
+  border-color:#9a9a9a #c0c0c0 #c0c0c0 #9a9a9a;
+}
+
+form .button {
+  border-color:white #DCDCDC #DCDCDC white;
+  background-color:#F0F0F0;
+}
+
+
+/* Archives
+--------------------------------------------------*/
+.archive .postspermonth {color:#A0A0A0;}
+
+
+/* content misc
+--------------------------------------------------*/
+.next a {
+  padding-right:10px;
+  background:url(images/spring_flavour/next.gif) center right no-repeat;
+}
+
+.previous a {
+  padding-left:10px;
+  background:url(images/spring_flavour/previous.gif) center left no-repeat;
+}
+
+#entrynavigation {border-color:#F3F4F4;}
+
+.editlink {
+  position:absolute;
+  height:14px;
+  width:14px;
+  right:2px;
+  background:url(images/spring_flavour/edit.gif) 0 -14px;
+}
+
+html>body .editlink {bottom:6px;}
+
+.entry .info .editlink a,
+.minientry .editlink a,
+#comments li .editlink a {
+  display:block;
+  height:14px;
+  width:14px;
+  margin:0;
+  padding:0;
+  border:none;
+  font-size:1px; /* IEWin */
+  line-height:0; /* IEWin */
+  text-indent:-9999px;
+  background:url(images/spring_flavour/edit.gif) 0 0;
+}
+
+.entry .info .editlink a:hover,
+.minientry .editlink a:hover,
+#comments li .editlink a:hover
+  {background:none;}
+
+
+
+
+/* footer
+--------------------------------------------------*/
+#footer {
+  color:#A0A0A0;
+  background:white url(images/spring_flavour/footer_bg.gif) 470px 0px no-repeat;
+}
+
+.singlecol #footer {background-image:none;}
+
+#footer p {border-top:6px solid #E9F7F6;}
+
+#footer a {color:#A0A0A0;}
+
+#footer a:hover {color:#414141;}
+
+#footer strong {color:#009193;}

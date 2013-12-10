@@ -1,0 +1,613 @@
+/* reset
+--------------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset {margin:0;padding:0;}
+.low {display:none;}
+
+
+/* body
+--------------------------------------------------*/
+body {
+  margin:0;
+  padding:0;
+  font-family:"Microsoft YaHei",Arial, Helvetica, sans-serif;
+  color:#141414;  
+  font-size:14px;
+  line-height:1.6em;
+  text-align:center;
+}
+
+body#commentspopup {padding:0;}
+
+
+/* headings
+--------------------------------------------------*/
+h1 {font-size:20px;}
+
+#content h1 {font-size:20px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#content h2 {
+  margin:0 0 15px 0;
+  font-family:"Microsoft YaHei",Georgia, serif; 
+  font-size:18px;
+  font-weight:normal;
+  line-height:24px;
+}
+
+#content h3 {
+  margin:0 0 18px 0;
+  font-size:16px;
+}
+
+#content h4 {
+  margin:0;
+  font-size:14px;
+}
+
+#content.archive h2 {margin:0 0 26px 0;}
+
+#content.archive h3 {
+  margin:0 0 10px 0;
+  font-family:"Microsoft YaHei",Georgia, serif;
+  font-size:1.3em;
+  font-weight:normal;
+}
+
+#content.archive h4 {
+  margin:0 0 18px 0;
+  font-size:1em;
+}
+
+#content.archive h5 {
+  margin:0;
+  font-size:1em;
+}
+
+
+/* links
+--------------------------------------------------*/
+a {text-decoration:none;}
+
+a img {border:none;}
+
+
+/* paragraphs, lists, etc
+--------------------------------------------------*/
+p {
+  margin:0;
+  padding:0 0 18px 0;
+}
+
+ul {
+  margin:0 0 0 1.4em;
+  padding:0 0 18px 0;
+}
+
+ul ul {padding:0;}
+
+blockquote {
+  margin:0;
+  padding:10px 10px;
+  font-style:Arial, Helvetica, sans-serif;
+}
+
+pre {
+  overflow:auto;
+  margin:0 0 18px 0;
+  padding:4px;
+}
+
+pre, code, kbr {font-family:"Microsoft YaHei",Courier, Monaco, monospace;}
+
+code, kbr {padding:0 2px;}
+
+abbr, acronym {
+  font-size:0.9em;
+  letter-spacing:1px;
+}
+
+
+/* images
+--------------------------------------------------*/
+img.left {
+  float:left;
+  margin:0 12px 0 0;
+}
+
+img.right {
+  float:right;
+  margin:0 0 0 12px;
+}
+
+img.center {
+  display: block;
+  margin:0 auto;
+}
+
+
+/* container
+--------------------------------------------------*/
+#container {
+  width:940px;
+  margin:0 auto;
+  padding:0 20px;
+  text-align:left;
+}
+
+#commentspopup #container {
+  width:455px;
+  padding:0 15px;
+}
+
+
+/* header
+--------------------------------------------------*/
+#header {
+   height:120px;
+   display:block;  
+}
+
+#header h1 {
+  /*display:none; This will hide the text in your header */
+  padding-top:50px;  
+}
+
+#logo{
+float:left;
+margin-left:10px;
+margin-right:30px;
+padding:30px 0px 0;
+}
+
+#header-banner {
+width:728px;
+height:90px;
+float:right;
+position:Absolute;
+margin-left:210px;
+padding:15px 10px 0 0;
+}
+
+
+/* navigation
+--------------------------------------------------*/
+#navigation {
+  display: block;
+  height:40px;
+  line-height:40px;
+  -moz-border-radius-bottomright:6px;
+  -webkit-border-bottom-right-radius:6px;
+  border-bottom-right-radius:6px;
+}
+
+#navigation ul {
+  margin:0;
+  padding:0;  
+}
+
+#navigation li {
+  float:left;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  border-right:1px solid;
+  white-space:nowrap;
+  zoom: 1;
+  z-index:999;
+}
+
+#navigation li a {
+  display:block;
+  padding:0 12px;
+  font-size:16px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+* html #navigation a {width:1%;} /* see http://www.positioniseverything.net/explorer/escape-floats.html */
+
+#navigation form {
+  float:right;
+  height:100%;
+  width:282px;
+  padding:0 15px;
+  border-left:1px solid;
+  line-height:0;
+}
+
+#navigation form fieldset {
+  /* centering the search form could've
+  been done way more elegant but IEWin
+  and Opera refused to follow the rules */
+  margin-top:7px;
+  border:0 solid; /* Opera */
+}
+
+* html #navigation form fieldset {margin-top:7px;}
+
+#navigation #s {
+  height:1.7em;
+  width:230px;
+  margin:0 5px 0 0;
+  padding:0;
+  border:1px solid;
+  font-size:0.8em;
+  vertical-align:middle;
+}
+
+#navigation #searchbutton {
+  height:2em;
+  width:auto;
+  padding:0 1px;
+  border:1px solid;
+  font-size:9px;
+  letter-spacing:1px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+/* content
+--------------------------------------------------*/
+#content {
+  float:right;
+  width:610px;
+  padding:20px 0 0 10px;  
+}
+
+.singlecol #content {
+  float:none;
+  width:550px;
+  margin:0 70px;
+}
+
+#commentspopup #content {
+  float:none;
+  padding-top:0;
+}
+
+
+/* entry
+--------------------------------------------------*/
+.entry {margin:0 0 20px 0;}
+
+.entry .info {
+  position:relative;
+  margin-top:-3px;
+  padding:3px;
+  border-top:1px solid;
+  border-bottom:1px solid;
+  font-size:15px;
+}
+
+.entry.single {
+	clear:both;
+	float:none;
+	margin:0;
+}
+
+.entry.single .info {margin:0 0 22px 0;}
+
+.entry.single .post-tags a{
+	border:1px solid #EDF3DE;
+	padding:4px 8px;
+	margin:0 4px;
+	text-decoration:none;
+}
+.entry.single .post-tags a:hover{
+	background:#A3C159;
+	color:#FFFFFF;
+}
+
+.entry.nav {
+border-bottom: 1px solid 
+#EDE8E2;
+height: 26px;
+padding-bottom: 3px;
+margin: 0 0 20px;
+}
+
+.entry .info a {
+  margin-right:6px;
+  padding-right:9px;
+  border-right:1px solid;
+}
+
+.entry .info em {
+  padding-right:6px;
+  font-style:normal;
+}
+
+.entry .author,
+.entry .editlink a {
+  margin:0;
+  padding:0 0 0 10px;
+  border-left:1px solid;
+  border-right:none
+}
+
+.entry #filedunder {
+  clear:both;
+  padding:3px 0 0 0;
+  font-size:14px;
+  border-top:1px solid;
+}
+
+
+/* mini-entry
+--------------------------------------------------*/
+.minientry {
+  position:relative;
+  margin:0px 0 35px 0;
+  padding:10px 0;
+  border-top:1px dotted;
+  border-bottom:1px dotted;
+}
+
+.minientry p {padding:0;}
+
+.minientry .commentlink {
+  margin-left:3px;
+  padding-right:7px;
+  border-right:1px solid;
+  font-size:0.9em;
+}
+
+.minientry .permalink {
+  margin-left:3px;
+  font-size:0.9em;
+  font-style:normal;
+}
+
+.minientry .author,
+.minientry .editlink a {
+  margin-left:6px;
+  padding:0 8px 0 10px;
+  border-left:1px solid;
+  font-size:0.9em;
+  font-style:normal;
+}
+
+.minientry .editlink a {margin:0;}
+
+
+/* comments
+--------------------------------------------------*/
+#comments h2 {margin-bottom:24px;}
+
+#comments h2 a {
+  margin-left:2px;
+  padding-left:6px;
+  border-left:1px solid;
+  font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+  font-size:0.55em;
+}
+
+#comments ul {margin:0 0 0 20px;}
+
+#comments li {
+  position:relative;
+  margin-bottom:18px;
+}
+
+
+#comments li p {padding:0 0 10px 0;}
+
+#comments .header {
+  position:relative;
+  min-height:19px; /* 19 + 3 +3 = 25px = height of gravatar */
+  margin:0 0 10px 0;
+  padding:3px 6px;
+}
+
+* html #comments .header {height:19px;} /* IEWin */
+
+#comments .header strong {font-family:Georgia,sans-serif;}
+
+#comments .header .gravatar {
+  position:absolute;
+  top:1px;
+  right:1px;
+}
+
+
+/* form
+--------------------------------------------------*/
+form {padding:6px 0;}
+
+#commentform, #contactform {margin-bottom:18px;}
+
+form fieldset {border:0 solid;} /* Opera */
+
+form p {
+  padding:6px 0;
+  border-bottom:1px solid;
+}
+
+form label {
+  display:block;
+  float:left;
+  width:60px;
+}
+
+#commentform label {margin:0 15px 0 15px;}
+#contactform label {margin:0 15px 0 0;}
+
+form em {
+  margin-left:5px;
+  font-size:0.9em;
+  font-style:normal;
+}
+
+form input, form textarea {
+  padding:3px;
+  width:580px;
+  border:1px solid;
+  font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+  font-size:0.9em;
+}
+
+form textarea {overflow:auto;}
+
+#commentform input {width:195px;}
+#commentform textarea {width:435px;}
+#contactform textarea, #contactform #bx_subject {width:465px;}
+
+* html #commentform textarea {width:320px;} /* IE WIN; but why? */
+* html #contactform textarea,
+* html #contactform #bx_subject {width:445px;} /* IE WIN; but why? */
+
+form .button {
+  width:90px !important;
+  border-bottom:1px solid;
+  font-weight:bold;
+}
+
+#commentform .button {margin-left:90px;}
+#contactform .button {margin-left:75px;}
+
+form .hiddenfield {display:none;}
+
+form .info {padding-left:90px;}
+
+
+
+/* archives
+--------------------------------------------------*/
+.archive .postspermonth {
+  margin:0;
+  list-style:none;
+}
+
+
+/* content misc
+--------------------------------------------------*/
+.pagenavi{
+	width:600px;
+	float:left;
+	margin-bottom:20px;
+}
+.page-numbers{
+	margin:0 12px 0 0;
+	padding:4px 8px;
+	background:#EDF3DE;
+}
+a.page-numbers:hover, .page-numbers.current {
+	background:#A3C159;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+/* subcontent */
+#subcontent {
+	float:left;
+	width:300px;
+	padding:10px 0 0 0px;
+	background:url(images/spring_flavour/subcontent_bg.gif) left top no-repeat;
+	font-size:12px;
+}
+/* subcontent headings */
+#subcontent h3{
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:none repeat scroll 0 0 #01B468;
+	color:#FFFFFF;
+	float:left;
+	font-size:14px;
+	font-weight:lighter;
+	height:22px;
+	line-height:22px;
+	padding:4px 10px;
+	width:280px;
+	margin:10px 0 0;
+}
+
+/* subcontent list */
+#subcontent ul{
+	border-bottom:1px solid #EDE8E2;
+	border-left:1px solid #EDE8E2;
+	border-right:1px solid #EDE8E2;
+	float:left;
+	margin:0 0 10px 0;
+	padding:9px;
+	width:280px;
+}
+#subcontent div{
+	margin:10px 0;
+	float:left;
+}
+#subcontent ul li {
+	padding-bottom:2px;
+	color:#A3C159;
+	list-style:square;
+	margin:2px 0 2px 14px;
+}
+
+#subcontent li a {
+	padding:1px 0;
+}
+
+#subcontent ul li a:hover {
+	text-decoration:underline;
+	color:#009193;
+}
+
+#subcontent .l2c li{
+	width:126px;
+	float:left;
+}
+
+/* footer
+--------------------------------------------------*/
+#footer {
+  clear:both;
+  padding:40px 0 15px 0;
+  font-size:0.9em;
+}
+
+.singlecol #footer {
+  padding:25px 0 15px 0;
+}
+
+#footer p {
+  padding:12px 0 18px 0;
+  border-top:6px solid;
+}
+
+#footer strong {font-weight:normal;}
+
+.singlecol #footer p {
+  padding:12px 70px 18px 70px;
+}
+
+#article-index {
+    -moz-border-radius: 6px 6px 6px 6px;
+    border: 1px solid #DEDFE1;
+    float: right;
+    margin: 0 0 15px 15px;
+    padding: 0 6px;
+    width: 200px;
+    line-height: 23px;
+}
+#article-index strong {
+    border-bottom: 1px dashed #DDDDDD;
+    display: block;
+    line-height: 30px;
+    padding: 0 4px;
+}
+#index-ul {
+    margin: 0;
+    padding-bottom: 10px;
+}
+#index-ul li {
+    background: none repeat scroll 0 0 transparent;
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 20px;
+}
